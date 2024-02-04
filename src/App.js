@@ -27,7 +27,7 @@ function App() {
             <AboutMe />
           </Grid>
 
-          <Grid item md={6} sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>  
+          <Grid item md={6} sx={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>  
             <img src="images/git-rocket.svg" alt="logo"/>
           </Grid>
 

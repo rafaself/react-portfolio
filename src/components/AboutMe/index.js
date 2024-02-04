@@ -12,7 +12,6 @@ export default function AboutMe() {
       <Divider sx={{
         bgcolor: () => 'rgba(255, 0, 0, 0.5)',
         marginY: 2,
-        width: "500px"
       }}/>
 
       <Typography variant="h5">
