@@ -1,17 +1,8 @@
 import { Box, Divider, Grid, Typography } from "@mui/material";
 import MyCard from "../MyCard";
+import { cardsInfo } from "./data";
 
 export default function Projects() {
-
-    const cardsInfo = [
-        {
-            title: "Regex (scripts)",
-            description: "Scripts para realizar verificações e validações de padrões.",
-            image: "/images/regex.png",
-            imageTitle: "regex",
-            url: "https://github.com/rafaself/python-regex"
-        }
-    ]
 
     return (
         <Box marginBottom={4}>
