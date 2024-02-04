@@ -10,43 +10,7 @@ export default function Projects() {
             image: "/images/regex.png",
             imageTitle: "regex",
             url: "https://github.com/rafaself/python-regex"
-        },
-        {
-            title: "Regex (scripts)",
-            description: "Scripts para realizar verificações e validações de padrões.",
-            image: "/images/regex.png",
-            imageTitle: "regex",
-            url: "https://github.com/rafaself/python-regex"
-        },
-        {
-            title: "Regex (scripts)",
-            description: "Scripts para realizar verificações e validações de padrões.",
-            image: "/images/regex.png",
-            imageTitle: "regex",
-            url: "https://github.com/rafaself/python-regex"
-        },
-        {
-            title: "Regex (scripts)",
-            description: "Scripts para realizar verificações e validações de padrões.",
-            image: "/images/regex.png",
-            imageTitle: "regex",
-            url: "https://github.com/rafaself/python-regex"
-        },
-        {
-            title: "Regex (scripts)",
-            description: "Scripts para realizar verificações e validações de padrões.",
-            image: "/images/regex.png",
-            imageTitle: "regex",
-            url: "https://github.com/rafaself/python-regex"
-        },
-        {
-            title: "Regex (scripts)",
-            description: "Scripts para realizar verificações e validações de padrões.",
-            image: "/images/regex.png",
-            imageTitle: "regex",
-            url: "https://github.com/rafaself/python-regex"
-        },
-
+        }
     ]
 
     return (
@@ -62,22 +26,13 @@ export default function Projects() {
                 width: "500px"
             }} />
 
-            {/* <div style={{ display: "flex", flexFlow: "row wrap", gap: "16px", width: "100%" }}>
-                {
-                    cardsInfo.map(card =>
-                        <div style={{flexGrow: 1}}>
-                            <MyCard card={card} />
-                        </div>
-                    )
-                }
-            </div> */}
-
             <Grid container marginTop={4} sx={{ display: { xs: 'none', md: 'flex' } }}>
                 {cardsInfo.map((card, index) => (
                     <Grid
                         key={index + 1}
                         item
                         md={4}
+                        marginBottom={3}
                         display="flex"
                         justifyContent={(index % 3 === 0 ? 'flex-start' : index % 3 === 1 ? 'center' : 'flex-end')}
                     >
@@ -93,6 +48,7 @@ export default function Projects() {
                         key={index + 1}
                         item
                         xs={12}
+                        marginBottom={3}
                         display="flex"
                         justifyContent='center'
                     >

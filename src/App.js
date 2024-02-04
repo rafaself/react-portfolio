@@ -38,12 +38,9 @@ function App() {
             </ImageList>
           </Grid>
 
-
-          {/*
-
           <Grid item md={12} xs={12}>
             <Projects />
-          </Grid> */}
+          </Grid>
 
         </Grid>
 
