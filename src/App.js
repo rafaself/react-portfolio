@@ -16,7 +16,7 @@ function App() {
         <Grid container>
 
           <Grid item md={6} sx={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-            <img src="images/profile2.png" alt="logo" className="frameworks" height="450" />
+            <img src="images/profile2.png" alt="logo" className="frameworks" height="380" />
             <span>Está página foi desenvolvida utilizando React</span>
           </Grid>
 
