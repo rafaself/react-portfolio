@@ -12,11 +12,17 @@ import { Divider, ListItemButton, Typography } from '@mui/material';
 
 export default function MyList() {
   return (
-    <List sx={{ width: '100%', maxWidth: "100%", bgcolor: 'transparent' }}>
+    <List sx={{ width: '100%', bgcolor: 'transparent', paddingY: '32px' }}>
 
       <ListItem>
-        <Typography variant="h7">
-          Minhas redes:
+        <Typography variant="h4">
+        Bem vindo(a), me chamo Rafael!
+        </Typography>
+      </ListItem>
+
+      <ListItem>
+        <Typography variant="h6">
+          Meus contatos
         </Typography>
       </ListItem>
 
@@ -24,7 +30,7 @@ export default function MyList() {
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
         borderRadius: 3,
         marginY: 1
-      }}/>
+      }} />
 
       <ListItem sx={{
         bgcolor: () => 'rgba(0, 119, 181, 0.1)',
@@ -57,7 +63,7 @@ export default function MyList() {
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
         borderRadius: 3,
         marginY: 1
-      }}/>
+      }} />
 
       <ListItem sx={{
         bgcolor: () => 'rgba(255, 255, 255, 0.1)',
@@ -90,7 +96,7 @@ export default function MyList() {
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
         borderRadius: 3,
         marginY: 0.5
-      }}/>
+      }} />
 
       <ListItem sx={{
         bgcolor: () => 'rgba(37, 211, 102, 0.1)',
@@ -123,7 +129,7 @@ export default function MyList() {
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
         borderRadius: 3,
         marginY: 1
-      }}/>
+      }} />
 
       <ListItem sx={{
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
@@ -156,7 +162,7 @@ export default function MyList() {
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
         borderRadius: 3,
         marginY: 1
-      }}/>
+      }} />
 
     </List>
   );
