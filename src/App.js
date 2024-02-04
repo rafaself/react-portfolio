@@ -2,6 +2,7 @@ import "./App.css";
 import Grid from '@mui/material/Grid';
 import MyList from "./components/MyList";
 import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
 
 function App() {
 
@@ -27,6 +28,10 @@ function App() {
 
           <Grid item md={6} sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>  
             <img src="images/git-rocket.svg" alt="logo" height="400"/>
+          </Grid>
+
+          <Grid item>
+            <Projects />
           </Grid>
 
         </Grid>
