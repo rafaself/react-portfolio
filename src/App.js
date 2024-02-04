@@ -12,7 +12,7 @@ function App() {
       </div>
 
       <div className="app">
-        <Grid container spacing={2} paddingX={8}>
+        <Grid container spacing={2}>
 
           <Grid item md={6} sx={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>  
             <img src="images/profile2.png" alt="logo" className="frameworks" height="450"/>
