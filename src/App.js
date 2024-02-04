@@ -16,7 +16,7 @@ function App() {
 
           <Grid item md={6} sx={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>  
             <img src="images/profile2.png" alt="logo" class="frameworks" height="450"/>
-            <span>Está página foi desenvolvida utilizando React.js</span>
+            <span>Está página foi desenvolvida utilizando React</span>
           </Grid>
 
           <Grid item md={6} alignItems="center">
