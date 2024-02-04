@@ -23,13 +23,15 @@ function App() {
             <MyList />
           </Grid>
 
-          {/* <Grid item md={6}>
+          <Grid item md={6}>
             <AboutMe />
           </Grid>
 
-          <Grid item md={6} sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>  
+          <Grid item md={6}>  
             <img src="images/git-rocket.svg" alt="logo" height="400"/>
           </Grid>
+          
+          {/*
 
           <Grid item md={12} xs={12}>
             <Projects />
