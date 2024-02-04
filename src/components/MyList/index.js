@@ -27,12 +27,12 @@ export default function MyList() {
       </ListItem>
 
       <Divider sx={{
-        bgcolor: () => 'rgba(255, 0, 0, 0.1)',
+        bgcolor: () => 'rgba(255, 0, 0, 0.5)',
         marginY: 1
       }} />
 
       <ListItem sx={{
-        bgcolor: () => 'rgba(0, 119, 181, 0.1)',
+        bgcolor: () => 'rgba(0, 119, 181, 0.15)',
         borderRadius: 3
       }}>
 
@@ -59,12 +59,12 @@ export default function MyList() {
       </ListItem>
 
       <Divider sx={{
-        bgcolor: () => 'rgba(255, 0, 0, 0.1)',
+        bgcolor: () => 'rgba(255, 0, 0, 0.5)',
         marginY: 1
       }} />
 
       <ListItem sx={{
-        bgcolor: () => 'rgba(255, 255, 255, 0.1)',
+        bgcolor: () => 'rgba(255, 255, 255, 0.15)',
         borderRadius: 3
       }}>
 
@@ -91,12 +91,12 @@ export default function MyList() {
       </ListItem>
 
       <Divider sx={{
-        bgcolor: () => 'rgba(255, 0, 0, 0.1)',
+        bgcolor: () => 'rgba(255, 0, 0, 0.5)',
         marginY: 0.5
       }} />
 
       <ListItem sx={{
-        bgcolor: () => 'rgba(37, 211, 102, 0.1)',
+        bgcolor: () => 'rgba(37, 211, 102, 0.15)',
         borderRadius: 3
       }}>
 
@@ -123,12 +123,12 @@ export default function MyList() {
       </ListItem>
 
       <Divider sx={{
-        bgcolor: () => 'rgba(255, 0, 0, 0.1)',
+        bgcolor: () => 'rgba(255, 0, 0, 0.5)',
         marginY: 1
       }} />
 
       <ListItem sx={{
-        bgcolor: () => 'rgba(255, 0, 0, 0.1)',
+        bgcolor: () => 'rgba(255, 0, 0, 0.15)',
         borderRadius: 3
       }}>
 
@@ -155,7 +155,7 @@ export default function MyList() {
       </ListItem>
 
       <Divider sx={{
-        bgcolor: () => 'rgba(255, 0, 0, 0.1)',
+        bgcolor: () => 'rgba(255, 0, 0, 0.5)',
         marginY: 1
       }} />
 

@@ -23,7 +23,7 @@ export default function Projects() {
             <Divider sx={{
                 bgcolor: () => 'rgba(255, 0, 0, 0.5)',
                 marginY: 2,
-                width: "500px"
+                width: "50%"
             }} />
 
             <Grid container marginTop={4} sx={{ display: { xs: 'none', md: 'flex' } }}>
