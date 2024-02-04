@@ -25,8 +25,9 @@ export default function MyCard(props) {
         </Typography>
       </CardContent>
 
-      <CardActions sx={{ display: "flex", justifyContent: "end" }}>
+      <CardActions sx={{ display: "flex", flexDirection: "row-reverse", justifyContent: "space-between" }}>
         <Button size="small" component="a" href={props.card.url} target="_blank">Ver projeto</Button>
+        { props.card.urlResult && <Button size="small" component="a" href={props.card.urlResult} target="_blank">Ver resultado</Button>}
       </CardActions>
 
     </Card>
