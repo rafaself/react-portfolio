@@ -46,7 +46,7 @@ export default function MyList() {
           </ListItemAvatar>
 
           <ListItemText
-            primary="Linkedin"
+            primary="LinkedIn"
             secondary="https://www.linkedin.com/in/rafael-fontenele/"
             secondaryTypographyProps={{
               color: 'FFFFFF',
