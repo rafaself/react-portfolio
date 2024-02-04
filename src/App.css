@@ -4,7 +4,6 @@ body {
 
 .main {
     max-width: 100%;
-    box-sizing: border-box;
 }
 
 .space {
@@ -33,10 +32,7 @@ body {
 .app {
     color: #fff;
     font-family: 'Press Start 2P', cursive;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    margin: 0 32px;
 }
 
 .frameworks:hover {
