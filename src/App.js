@@ -23,7 +23,7 @@ function App() {
             <MyList />
           </Grid>
 
-          <Grid item md={6}>
+          {/* <Grid item md={6}>
             <AboutMe />
           </Grid>
 
@@ -33,7 +33,7 @@ function App() {
 
           <Grid item md={12} xs={12}>
             <Projects />
-          </Grid>
+          </Grid> */}
 
         </Grid>
 
