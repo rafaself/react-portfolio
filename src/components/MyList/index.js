@@ -28,7 +28,6 @@ export default function MyList() {
 
       <Divider sx={{
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
-        borderRadius: 3,
         marginY: 1
       }} />
 
@@ -61,7 +60,6 @@ export default function MyList() {
 
       <Divider sx={{
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
-        borderRadius: 3,
         marginY: 1
       }} />
 
@@ -94,7 +92,6 @@ export default function MyList() {
 
       <Divider sx={{
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
-        borderRadius: 3,
         marginY: 0.5
       }} />
 
@@ -127,7 +124,6 @@ export default function MyList() {
 
       <Divider sx={{
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
-        borderRadius: 3,
         marginY: 1
       }} />
 
@@ -160,7 +156,6 @@ export default function MyList() {
 
       <Divider sx={{
         bgcolor: () => 'rgba(255, 0, 0, 0.1)',
-        borderRadius: 3,
         marginY: 1
       }} />
 

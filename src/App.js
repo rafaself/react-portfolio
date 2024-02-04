@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 function App() {
 
   return (
-    <div class="main">
+    <div className="main">
       <div className="space">
       </div>
 
@@ -15,7 +15,7 @@ function App() {
         <Grid container spacing={2} paddingX={8}>
 
           <Grid item md={6} sx={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>  
-            <img src="images/profile2.png" alt="logo" class="frameworks" height="450"/>
+            <img src="images/profile2.png" alt="logo" className="frameworks" height="450"/>
             <span>Está página foi desenvolvida utilizando React</span>
           </Grid>
 
@@ -31,7 +31,7 @@ function App() {
             <img src="images/git-rocket.svg" alt="logo" height="400"/>
           </Grid>
 
-          <Grid item>
+          <Grid item md={12} xs={12}>
             <Projects />
           </Grid>
 

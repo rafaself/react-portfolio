@@ -5,11 +5,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { SpaceBar } from '@mui/icons-material';
 
 export default function MyCard(props) {
   return (
-    <Card sx={{ maxWidth: 345, bgcolor: "rgba(230,230,230,1)" }}>
+    <Card sx={{ maxWidth: "100%", bgcolor: "rgba(230,230,230,1)" }}>
 
       <CardMedia
         sx={{ height: 140 }}
@@ -27,7 +26,7 @@ export default function MyCard(props) {
       </CardContent>
 
       <CardActions sx={{ display: "flex", justifyContent: "end" }}>
-        <Button size="small">Ver projeto</Button>
+        <Button size="small" component="a" href={props.card.url} target="_blank">Ver projeto</Button>
       </CardActions>
 
     </Card>
