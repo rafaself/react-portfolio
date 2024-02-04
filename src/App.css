@@ -1,5 +1,10 @@
 body {
-    background-color: #000;
+    background-color: #070707;
+}
+
+.main {
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .space {
