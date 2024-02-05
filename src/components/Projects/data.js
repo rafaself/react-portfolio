@@ -21,4 +21,27 @@ export const cardsInfo = [
         url: "https://github.com/rafaself/lotr-react",
         urlResult: "https://lotr-react-seven.vercel.app/",
     },
+    {
+        title: "Site de Engenharia",
+        description: "Frontend desenvolvido com Vuejs para site de Engenharia Elétrica.",
+        image: "https://belenos.me/media/2021-05-vuejs.webp",
+        imageTitle: "logo ares engenharia",
+        url: "https://github.com/rafaself/vuejs-ares-frontend",
+        urlResult: "https://vuejs-ares-frontend.vercel.app/",
+    },
+    {
+        title: "Perceptron",
+        description: "Implementação do Perceptron para implementação da porta AND. Conteúdo básico de Redes Neurais Artificais.",
+        image: "https://matt.might.net/images/blog/midjourney-glowing-blue-neural-network-small.png",
+        imageTitle: "redes neurais representação",
+        url: "https://github.com/rafaself/python-perceptron-basics",
+    },
+    {
+        title: "HTML e CSS puro",
+        description: "Página básica com HTML e CSS.",
+        image: "https://horadecodar.com.br/wp-content/uploads/2019/06/html_css_oinicio.png",
+        imageTitle: "html e css",
+        url: "https://github.com/rafaself/htmlcss-basic-page",
+        urlResult: "https://htmlcss-basic-page.vercel.app/",
+    },
 ]
