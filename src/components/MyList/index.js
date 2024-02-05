@@ -14,26 +14,22 @@ export default function MyList() {
   return (
     <List sx={{ width: '100%', bgcolor: 'transparent', paddingY: '32px' }}>
 
-      <ListItem>
+      <ListItem sx={{ paddingX: 0 }}>
         <Typography variant="h4">
         Bem vindo(a), me chamo Rafael!
         </Typography>
       </ListItem>
 
-      <ListItem>
+      <ListItem sx={{ paddingX: 0 }}>
         <Typography variant="h6">
           Meus contatos
         </Typography>
       </ListItem>
 
-      <Divider sx={{
-        bgcolor: () => 'rgba(255, 0, 0, 0.5)',
-        marginY: 1
-      }} />
-
       <ListItem sx={{
         bgcolor: () => 'rgba(0, 119, 181, 0.15)',
-        borderRadius: 3
+        borderRadius: 3,
+        marginTop: 1
       }}>
 
         <ListItemButton component="a" href="https://www.linkedin.com/in/rafael-fontenele/" target="_blank">
@@ -153,11 +149,6 @@ export default function MyList() {
         </ListItemButton>
 
       </ListItem>
-
-      <Divider sx={{
-        bgcolor: () => 'rgba(255, 0, 0, 0.5)',
-        marginY: 1
-      }} />
 
     </List>
   );

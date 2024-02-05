@@ -44,4 +44,11 @@ export const cardsInfo = [
         url: "https://github.com/rafaself/htmlcss-basic-page",
         urlResult: "https://htmlcss-basic-page.vercel.app/",
     },
+    {
+        title: "Pyautogui (scripts)",
+        description: "Scripts para realizar tarefas com com pyautogui.",
+        image: "https://rightcode.co.jp/wp-content/uploads/2020/04/pyautogui-logo-001.png",
+        imageTitle: "pyautogui",
+        url: "https://github.com/rafaself/python-pyautogui-scripts",
+    },
 ]
