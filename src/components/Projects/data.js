@@ -15,6 +15,13 @@ export const cardsInfo = [
         urlResult: "https://react-spaceapp.vercel.app/",
     },
     {
+        title: "Golang - Gin",
+        description: "Desenvolvimento de uma API REST em Go com o framework Gin Rest.",
+        image: "https://hermes.dio.me/articles/cover/93400613-9e4c-44c9-b42a-9a2972af3060.png",
+        imageTitle: "go api gin rest",
+        url: "https://github.com/rafaself/go-gin-apirest",
+    },
+    {
         title: "Regex (scripts)",
         description: "Scripts para realizar verificações e validações de padrões.",
         image: "/images/regex.png",
