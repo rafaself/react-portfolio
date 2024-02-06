@@ -66,4 +66,11 @@ export const cardsInfo = [
         imageTitle: "pyautogui",
         url: "https://github.com/rafaself/python-pyautogui-scripts",
     },
+    {
+        title: "Java UFC Game",
+        description: "Jogo básico para visualizar no terminal iterações entre de lutadores com Java.",
+        image: "https://i.redd.it/oog08qvto2k91.jpg",
+        imageTitle: "logo ufc",
+        url: "https://github.com/rafaself/java-ufc-game",
+    },
 ]
