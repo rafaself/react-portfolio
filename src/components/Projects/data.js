@@ -7,6 +7,14 @@ export const cardsInfo = [
         url: "https://github.com/rafaself/python-fastapi-user-management"
     },
     {
+        title: "SpaceApp (Em andamento)",
+        description: "Construção de Frontend utilizando React, Vite, Typescript, Gerenciamento de Estados, React Router, Tests, Mocks e Styled Components.",
+        image: "/images/spaceapp.png",
+        imageTitle: "space app",
+        url: "https://github.com/rafaself/react-spaceapp",
+        urlResult: "https://react-spaceapp.vercel.app/",
+    },
+    {
         title: "Regex (scripts)",
         description: "Scripts para realizar verificações e validações de padrões.",
         image: "/images/regex.png",
