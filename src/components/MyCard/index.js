@@ -16,19 +16,21 @@ export default function MyCard(props) {
         title={props.card.imageTitle}
       />
 
-      <CardContent sx={{ height: 100 }}>
-        <Typography gutterBottom variant="h5" component="div">
-        {props.card.title}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        {props.card.description}
-        </Typography>
-      </CardContent>
+      <div style={{display: "flex", flexGrow: 1, flexDirection: "column", justifyContent: "space-between", height:"220px"}}>
+        <CardContent sx={{ height: 140 }}>
+          <Typography gutterBottom variant="h5" component="div">
+            {props.card.title}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {props.card.description}
+          </Typography>
+        </CardContent>
 
-      <CardActions sx={{ display: "flex", flexDirection: "row-reverse", justifyContent: "space-between" }}>
-        <Button size="small" component="a" href={props.card.url} target="_blank">Ver projeto</Button>
-        { props.card.urlResult && <Button size="small" component="a" href={props.card.urlResult} target="_blank">Ver resultado</Button>}
-      </CardActions>
+        <CardActions sx={{ display: "flex", flexDirection: "row-reverse", justifyContent: "space-between" }}>
+          <Button size="small" component="a" href={props.card.url} target="_blank">Ver projeto</Button>
+          {props.card.urlResult && <Button size="small" component="a" href={props.card.urlResult} target="_blank">Ver resultado</Button>}
+        </CardActions>
+      </div>
 
     </Card>
   );

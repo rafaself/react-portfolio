@@ -1,7 +1,7 @@
 export const cardsInfo = [
     {
-        title: "Gerrenciamento de usuários com FastAPI",
-        description: "Software que realiza o gerenciamento usuários e suas permissões e autenticações.",
+        title: "Python Gerrenciamento de usuários com FastAPI",
+        description: "Software que realiza o gerenciamento usuários e suas permissões e autenticações. Utiliza Python, FastAPI, SQLAlchemy, RabbitMQ, Celery, Docker e Pydantic.",
         image: "https://dkrn4sk0rn31v.cloudfront.net/uploads/2022/03/o-que-e-fastapi-400x280.png",
         imageTitle: "fast api projeto",
         url: "https://github.com/rafaself/python-fastapi-user-management"
