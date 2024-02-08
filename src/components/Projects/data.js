@@ -7,6 +7,13 @@ export const cardsInfo = [
         url: "https://github.com/rafaself/python-fastapi-user-management"
     },
     {
+        title: "C# ASP.NET App (Em andamento)",
+        description: "Software desenvolvida utilizando C# ASP.NET Core para gerenciar recursos de uma API.",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg",
+        imageTitle: "c# asp dot net",
+        url: "https://github.com/rafaself/c--asp.net-cinemaclub"
+    },
+    {
         title: "SpaceApp (Em andamento)",
         description: "Construção de Frontend utilizando React, Vite, Typescript, Gerenciamento de Estados, React Router, Tests, Mocks e Styled Components.",
         image: "/images/spaceapp.png",
