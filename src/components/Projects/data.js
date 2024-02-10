@@ -1,14 +1,14 @@
 export const cardsInfo = [
     {
         title: "Python Gerrenciamento de usuários com FastAPI",
-        description: "Software que realiza o gerenciamento usuários e suas permissões e autenticações. Utiliza Python, FastAPI, SQLAlchemy, RabbitMQ, Celery, Docker e Pydantic.",
+        description: "Software que realiza o gerenciamento de usuários, permissões e autenticações. Utiliza Python, FastAPI, SQLAlchemy, RabbitMQ, Celery, Docker e Pydantic.",
         image: "https://dkrn4sk0rn31v.cloudfront.net/uploads/2022/03/o-que-e-fastapi-400x280.png",
         imageTitle: "fast api projeto",
         url: "https://github.com/rafaself/python-fastapi-user-management"
     },
     {
-        title: "C# ASP.NET App (Em andamento)",
-        description: "Software desenvolvida utilizando C# ASP.NET Core para gerenciar recursos de uma API.",
+        title: "C# ASP.NET Api Genérica",
+        description: "Software desenvolvida utilizando C# ASP.NET e Entity para gerenciar os recursos de uma API.",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg",
         imageTitle: "c# asp dot net",
         url: "https://github.com/rafaself/c--asp.net-cinemaclub"
