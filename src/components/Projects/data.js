@@ -8,14 +8,14 @@ export const cardsInfo = [
     },
     {
         title: "C# ASP.NET - API para gerenciamento de usuários",
-        description: "Software desenvolvido utilizando C# ASP.NET e Entity para gerenciar os recursos de uma API.",
+        description: "Software desenvolvido utilizando C# ASP.NET, Identity Framework e Entity Framework para gerenciar os recursos de uma API.",
         image: "https://growiz.com.br/wp-content/uploads/2021/01/ms-dotnet-3-1024x1024.png",
         imageTitle: "c# asp dot net",
         url: "https://github.com/rafaself/CS-.NET-user-management"
     },
     {
         title: "C# ASP.NET - API genérica",
-        description: "Software desenvolvido utilizando C# ASP.NET e Entity para gerenciar os recursos de uma API.",
+        description: "Software desenvolvido utilizando C# ASP.NET e Entity Framework para gerenciar os recursos de uma API.",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg",
         imageTitle: "c# asp dot net",
         url: "https://github.com/rafaself/c--asp.net-cinemaclub"
