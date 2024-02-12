@@ -21,6 +21,13 @@ export const cardsInfo = [
         url: "https://github.com/rafaself/c--asp.net-cinemaclub"
     },
     {
+        title: "C# .NET Entity Framework - Estudos Banco de Dados e ORM com C#",
+        description: "Projeto para estudar e aprofundar mais em Entity Framework.",
+        image: "https://i.ytimg.com/vi/4_K4MgWHzb8/mqdefault.jpg",
+        imageTitle: "c# asp dot net entity framework",
+        url: "https://github.com/rafaself/CS-EntityFrameworkStudy-LoanSystem/"
+    },
+    {
         title: "GO Gin - API genérica",
         description: "Desenvolvimento de uma API REST em Go com o framework Gin Rest.",
         image: "https://hermes.dio.me/articles/cover/93400613-9e4c-44c9-b42a-9a2972af3060.png",
