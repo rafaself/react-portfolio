@@ -11,7 +11,7 @@ export default function MyCard(props) {
     <Card sx={{ width: "380px", bgcolor: "rgba(230,230,230,1)" }}>
 
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 180 }}
         image={props.card.image}
         title={props.card.imageTitle}
       />
