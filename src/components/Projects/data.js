@@ -28,6 +28,13 @@ export const cardsInfo = [
         url: "https://github.com/rafaself/CS-EntityFrameworkStudy-LoanSystem/"
     },
     {
+        title: "C# .NET Entity Framework - Estudos de Banco de Dados e ORM com o Entity",
+        description: "Projeto para implementar o gerenciamento e modelagem de um banco de dados tomando como exemplo um caso de biblioteca.",
+        image: "https://miro.medium.com/v2/resize:fit:894/1*IIhG6-748I5zr4LVFGWdQA.png",
+        imageTitle: "c# asp dot net entity framework",
+        url: "https://github.com/rafaself/CSharp-entity-framework-database-modeling-spaceblog"
+    },
+    {
         title: "React - SpaceApp (Em andamento)",
         description: "Construção de Frontend utilizando React, Vite, Typescript, Gerenciamento de Estados, React Router, Tests, Mocks e Styled Components.",
         image: "/images/spaceapp.png",
